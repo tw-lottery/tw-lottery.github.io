@@ -9,6 +9,7 @@ header {
 
 header img {
 	width: 50px;
+	max-width: 50px;
 	position: absolute;
 	left: 30px;
 	top: 5px;
