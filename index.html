@@ -10,13 +10,24 @@
 	<script src="script/app.js"></script>
 	<link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+<body ng-app="myApp" ng-controller="myCtrl">
 	<header>
-		<h1>总奖池 ¥130</h1>
+		<h1>总奖池 ¥ {{getTotalAmount()}}</h1>
 	</header>
 
 	<div class="container">
 		<h1>下注人列表</h1>
+		<ul>
+			<li class="title">
+				<span class="name">投注人</span>
+				<span class="bonus">获胜奖金</span>	
+			</li>
+			<li ng-repeat="item in data">
+				<img src="image/{{item.team}}.png" alt="{{item.team}}">
+				<span class="name">{{item.name}}</span> 
+				<span class="bonus">{{getBonus(item.team)}}</span>
+			</li>
+		</ul>
 	</div>
 	
 	<footer>

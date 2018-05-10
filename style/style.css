@@ -10,3 +10,45 @@ header {
 .buy {
 	max-width: 100%;
 }
+
+ul {
+	padding: 0;
+}
+
+li {
+	display: block;
+	background-color: #eee;
+	padding: 0 0;
+	margin-bottom: 5px;
+}
+
+li.title {
+	background-color: #ddd;
+}
+
+li span {
+	padding: 20px 0;
+}
+
+.team-icon {
+	display: inline-block;
+	width: 50px;
+}
+
+.name {
+	display: inline-block;
+	width: 100px;
+	margin-left: 90px;
+}
+
+.bonus {
+	padding-left: 20px;
+}
+
+li img {
+	margin-top: 5px;
+	margin-left: 10px;
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+}
