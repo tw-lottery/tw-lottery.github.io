@@ -51,7 +51,7 @@ app.controller('myCtrl', function($scope) {
         name: "陈亮",
         team: WAR
     }, {
-        name: "未知",
+        name: "汪大亨",
         team: CAV
     }, {
         name: "熊节",
