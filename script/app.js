@@ -44,6 +44,9 @@ app.controller('myCtrl', function($scope) {
     }, {
         name: "徐江",
         team: WAR
+    }, {
+        name: "姚文杰",
+        team: ROC
     }];
 
     $scope.getTotalAmount = function () {
