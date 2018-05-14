@@ -16,6 +16,16 @@
 		<h1>总奖池 ¥ {{getTotalAmount()}}</h1>
 	</header>
 
+	<div class="container">
+		<ul>
+			<li ng-repeat="game in gameData" class="game">
+				<span class="home-team">{{convert(game.homeTeam)}}</span>
+				<span class="game-score">{{game.homeScore}} : {{game.roadScore}}</span>
+				<span class="road-team">{{convert(game.roadTeam)}}</span>
+			</li>
+		</ul>
+	</div>
+
 	<div class="score">
 		<img src="image/score.png" alt="" class="buy">
 	</div>

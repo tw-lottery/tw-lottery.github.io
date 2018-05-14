@@ -5,6 +5,13 @@ const WAR = "warriors";
 
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope) {
+    $scope.gameData = [{
+        homeTeam: CEL,
+        homeScore: 108,
+        roadTeam: CAV,
+        roadScore: 83
+    }];
+
     $scope.data = [{
         name: "李好",
         team: CEL
@@ -70,5 +77,15 @@ app.controller('myCtrl', function($scope) {
     	}).length;
 
     	return Math.round(totalAmount * 100 / teamCount) / 100;
+    }
+
+    $scope.convert = function(engName) {
+        var nameMap = {
+            celtics: "凯尔特人",
+            cavaliers: "骑士",
+            rockets: "火箭",
+            warriors: "勇士"
+        }
+        return nameMap[engName];
     }
 });
