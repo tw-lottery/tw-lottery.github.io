@@ -1,0 +1,1 @@
+mv -f ~/Desktop/score.png ./image/
