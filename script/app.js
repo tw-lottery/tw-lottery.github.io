@@ -20,6 +20,11 @@ app.controller('myCtrl', function($scope) {
         homeScore: 107,
         roadTeam: CAV,
         roadScore: 94
+    }, {
+        homeTeam: ROC,
+        homeScore: 127,
+        roadTeam: WAR,
+        roadScore: 105
     }];
 
     $scope.data = [{
