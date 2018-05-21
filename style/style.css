@@ -71,6 +71,19 @@ li img {
 	position: absolute;
 }
 
+.home-team, .game-score, .road-team {
+	display: inline-block;
+	width: 70px;
+}
+
+.home-team {
+	text-align: right;
+}
+
+.road-team {
+	text-align: left;
+}
+
 .game {
 	text-align: center;
 	position: relative;
@@ -81,7 +94,7 @@ li img {
 }
 
 .game:last-child:before {
-	content: '最新战报';
+	content: '最新';
     color: red;
     position: absolute;
     left: 10px;
