@@ -9,32 +9,38 @@ app.controller('myCtrl', function($scope) {
         homeTeam: CEL,
         homeScore: 108,
         roadTeam: CAV,
-        roadScore: 83
+        roadScore: 83,
+        date: '5-14'
     }, {
         homeTeam: ROC,
         homeScore: 106,
         roadTeam: WAR,
-        roadScore: 119
+        roadScore: 119,
+        date: '5-15'
     }, {
         homeTeam: CEL,
         homeScore: 107,
         roadTeam: CAV,
-        roadScore: 94
+        roadScore: 94,
+        date: '5-16'
     }, {
         homeTeam: ROC,
         homeScore: 127,
         roadTeam: WAR,
-        roadScore: 105
+        roadScore: 105,
+        date: '5-17'
     }, {
         homeTeam: CAV,
         homeScore: 116,
         roadTeam: CEL,
-        roadScore: 86
+        roadScore: 86,
+        date: '5-20'
     }, {
         homeTeam: WAR,
         homeScore: 126,
         roadTeam: ROC,
-        roadScore: 85
+        roadScore: 85,
+        date: '5-21'
     }];
 
     $scope.data = [{

@@ -73,11 +73,11 @@ li img {
 
 .game {
 	text-align: center;
+	position: relative;
 }
 
 .game:last-child {
 	background-color: aquamarine;
-	position: relative;
 }
 
 .game:last-child:before {
@@ -87,6 +87,13 @@ li img {
     left: 10px;
     top: 50%;
     margin-top: -12px;
+}
+
+.date {
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	margin-top: -28px;
 }
 
 footer {
