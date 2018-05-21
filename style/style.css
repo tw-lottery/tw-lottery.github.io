@@ -75,6 +75,20 @@ li img {
 	text-align: center;
 }
 
+.game:last-child {
+	background-color: aquamarine;
+	position: relative;
+}
+
+.game:last-child:before {
+	content: '最新战报';
+    color: red;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -12px;
+}
+
 footer {
 	text-align: center;
 }
