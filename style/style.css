@@ -102,6 +102,20 @@ li img {
     margin-top: -12px;
 }
 
+.lost {
+	position: relative;
+}
+
+.lost:after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 3px;
+	background-color: black;
+	width: 100%;
+	top: 50%;
+}
+
 .date {
 	position: absolute;
 	right: 16px;
