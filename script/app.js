@@ -53,6 +53,12 @@ app.controller('myCtrl', function($scope) {
         roadTeam: ROC,
         roadScore: 95,
         date: '5-23'
+    }, {
+        homeTeam: CEL,
+        homeScore: 96,
+        roadTeam: CAV,
+        roadScore: 83,
+        date: '5-24'
     }];
 
     $scope.data = [{
