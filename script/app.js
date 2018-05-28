@@ -59,6 +59,24 @@ app.controller('myCtrl', function($scope) {
         roadTeam: CAV,
         roadScore: 83,
         date: '5-24'
+    }, {
+        homeTeam: ROC,
+        homeScore: 98,
+        roadTeam: WAR,
+        roadScore: 94,
+        date: '5-25'
+    }, {
+        homeTeam: CAV,
+        homeScore: 109,
+        roadTeam: CEL,
+        roadScore: 99,
+        date: '5-26'
+    }, {
+        homeTeam: WAR,
+        homeScore: 115,
+        roadTeam: ROC,
+        roadScore: 86,
+        date: '5-27'
     }];
 
     $scope.data = [{
