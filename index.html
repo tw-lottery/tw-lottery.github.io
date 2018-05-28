@@ -37,7 +37,7 @@
 				<span class="name">投注人</span>
 				<span class="bonus">获胜奖金</span>	
 			</li>
-			<li ng-repeat="item in data">
+			<li ng-repeat="item in data" ng-class="{'lost': isTeamLost(item.team)}">
 				<img src="image/{{item.team}}.png" alt="{{item.team}}">
 				<span class="name">{{item.name}}</span> 
 				<span class="bonus">{{getBonus(item.team)}}</span>

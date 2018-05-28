@@ -77,6 +77,12 @@ app.controller('myCtrl', function($scope) {
         roadTeam: ROC,
         roadScore: 86,
         date: '5-27'
+    }, {
+        homeTeam: CEL,
+        homeScore: 79,
+        roadTeam: CAV,
+        roadScore: 87,
+        date: '5-28'
     }];
 
     $scope.data = [{
@@ -132,6 +138,8 @@ app.controller('myCtrl', function($scope) {
         team: CEL
     }];
 
+    $scope.lostTeam = [CEL];
+
     $scope.getTotalAmount = function () {
     	return $scope.data.length * 10.0;
     }
@@ -154,5 +162,9 @@ app.controller('myCtrl', function($scope) {
             warriors: "勇士"
         }
         return nameMap[engName];
+    }
+
+    $scope.isTeamLost = function(team) {
+        return $scope.lostTeam.indexOf(team) >= 0;
     }
 });
