@@ -83,6 +83,12 @@ app.controller('myCtrl', function($scope) {
         roadTeam: CAV,
         roadScore: 87,
         date: '5-28'
+    }, {
+        homeTeam: ROC,
+        homeScore: 92,
+        roadTeam: WAR,
+        roadScore: 101,
+        date: '5-29'
     }];
 
     $scope.data = [{
@@ -138,7 +144,7 @@ app.controller('myCtrl', function($scope) {
         team: CEL
     }];
 
-    $scope.lostTeam = [CEL];
+    $scope.lostTeam = [CEL, ROC];
 
     $scope.getTotalAmount = function () {
     	return $scope.data.length * 10.0;
